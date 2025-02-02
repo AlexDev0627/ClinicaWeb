@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tratamientos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/icono.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Parkinsans:wght@300..800&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        ul  {
+            align-items: center;
+            margin: 0;
+            /* padding-bottom: 50px; */
+            margin-bottom: 0;
+            font-weight: bold;
+            padding-top: 50px;
+            padding-bottom: 100px;
+        }
+        ul p{
+            font-weight: 400;
+        }
+        p{
+            margin: 0;
+            /* padding: 0; */
+            margin-top: 8px;
+            padding-bottom: 50px;
+        }
+        li{
+            text-shadow: 1px 1px 10px darkgrey;
+        }
+        .servicioss{
+            /* padding: 0; */
+            /* margin: 0; */
+            background-color:rgb(237, 237, 237);
+            padding-top: 50px;
+        }
+        #hero-tratamientos h1{
+            color: white;
+            text-shadow: 4px 4px 10px black;
+        }
+        #hero-tratamientos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh ;
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(img/hero-tratamientos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+        #hero-tratamientos h1{
+            color: white;
+            text-shadow: 4px 4px 10px black;
+        }
+        #hero-tratamientos button{
+            transition: 0.8s;
+            cursor: pointer;
+        }
+        #hero-tratamientos p{
+            margin: 0px 50px;
+            text-shadow: 2px 2px 4px black;
+            color: white;
+        }
+        .parrafo-acento{
+            /* text-shadow: 2px 2px 2px rgb(72, 72, 72); */
+            text-shadow: none;
+            /* border: 1px solid black; */
+            /* background-color: rgb(32, 53, 32); */
+            /* border-radius: 7px; */
+            text-shadow: 2px 2px 2px black;
+            color: rgb(51, 129, 51);
+            font-weight: bold;
+        }
+        #arriba{
+            transition: 0.8s;
+            cursor: pointer;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: 625px;
+            margin-top: 50px;
+        }
+        #h2-tratamientos{
+            text-align: center;
+            text-shadow: 4px 4px 2px darkgray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">Clinica Esmeralda</a>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="index.html">Quienes Somos</a>
+                <a href="#tratamientos">Nuestros Servicios</a>
+                <a href="#footer">Características</a>
+            </nav>
+        </div>
+    </header>
+    <section id="hero-tratamientos">
+        <h1>Tratamientos</h1>
+        <p>En <span class="parrafo-acento">Clinica Esmeralda</span>, nos enorgullecemos de ofrecer tratamientos de vanguardia que transforman la salud y bienestar de nuestros pacientes. Desde terapias personalizadas hasta tecnologías de última generación, nuestro equipo de expertos está comprometido a proporcionar un cuidado integral y efectivo. Descubre cómo nuestros tratamientos innovadores pueden ayudarte a alcanzar una mejor calidad de vida, siempre con el respaldo de profesionales dedicados y apasionados por tu salud.</p>
+       <form action="#tratamientos">
+           <button>VER TRATAMIENTOS!</button>
+       </form> 
+    </section>
+    <section>
+        <div id="tratamientos"  class="servicioss">
+            <ul>
+                <h2 id="h2-tratamientos" >Tratamientos</h2>
+                <li>✔️Tratamientos de Enfermedades Crónicas</li>
+                <p>Nos especializamos en el manejo de enfermedades crónicas como diabetes, hipertensión, y enfermedades cardíacas. Nuestros programas incluyen monitoreo regular, educación sobre el manejo de la enfermedad, y tratamiento farmacológico personalizado para controlar y mejorar la condición de nuestros pacientes.</p>
+                <li>✔️Terapia Física y Rehabilitación</li>
+                <p>Nuestros servicios de fisioterapia están diseñados para ayudar a los pacientes a recuperar la movilidad y la funcionalidad después de lesiones o cirugías. Ofrecemos programas de rehabilitación personalizados que incluyen ejercicios terapéuticos, terapia manual y técnicas de manejo del dolor.</p>
+                <li>✔️Cirugía Ambulatoria</li>
+                <p>En nuestra clínica, realizamos procedimientos quirúrgicos menores en un entorno seguro y confortable. Nuestros servicios de cirugía ambulatoria incluyen la extracción de quistes, biopsias y otros procedimientos que no requieren hospitalización.</p>
+                <li>✔️Salud Mental</li>
+                <p>Nuestro equipo de salud mental proporciona tratamientos para trastornos como depresión, ansiedad y trastornos del sueño. Ofrecemos terapia individual y grupal, así como tratamientos farmacológicos cuando es necesario, para apoyar la salud emocional y mental de nuestros pacientes.</p>
+                <li>✔️Tratamientos Odontológicos</li>
+                <p>Proporcionamos una gama completa de tratamientos odontológicos, desde limpiezas y empastes hasta tratamientos de conducto y extracción de dientes. Nuestro objetivo es mantener la salud bucal de nuestros pacientes y proporcionar soluciones efectivas a sus problemas dentales.</p>
+            </ul>
+        </div>
+    </section>
+    <footer id="footer" class="pie-pagina">
+        <div class="grupo-1">
+            <figure>
+                <img id="logo-footer" src="img/footer2.jpg" alt="">
+            </figure>
+            <div class="box">
+                <h2>Sobre Nosotros</h2>
+                <p>En Clinica La Esmeralda, ofrecemos atención médica de excelencia con un enfoque en el paciente.</p>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, rem.</p> -->
+                 <p>Confía en nuestro equipo para un cuidado médico de calidad y compasión.</p>
+            </div>
+            <div class="box">    
+                <h2>Siguenos</h2>
+                <P style="text-align: center; align-items:center; margin-bottom: 10px;">Nuestras redes sociales</P>
+                <div class="redes">
+                    <a class= "social-icon" href="https://facebook.com/"><img src="img/facebook -1.png" alt=""></a>
+                    <a class="social-icon" href="https:instagram.com"><img src="img/instagram-1.png" alt=""></a>
+                    <a class="social-icon" href="https:whatsapp.com"><img src="img/whatsapp-1.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <form action="#hero-tratamientos">
+            <button id="arriba" >Ir a Inicio</button>
+        </form>
+        <div class="pie-pagina2">
+            <small><p>&copy; Copyright 2024---- Todos los derechos reservados---- Pagina hecha por Yofrank Salas</p></small>
+        </div>
+    </footer>
+</body>
+</html>

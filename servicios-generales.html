@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <title>Servicios generales</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/icono.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Parkinsans:wght@300..800&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        ul  {
+            align-items: center;
+            margin: 0;
+            text-shadow: none;
+            /* padding-bottom: 50px; */
+            margin-bottom: 0;
+            font-weight: bold;
+            padding-top: 50px;
+            padding-bottom: 100px;
+        }
+        ul p{
+            font-weight: 400;
+        }
+        #h2-generales{
+            text-align: center;
+            text-shadow: 4px 4px 2px darkgray;
+        }
+        p{
+            margin: 0;
+            /* padding: 0; */
+            font-weight: none;
+            margin-top: 8px;
+            padding-bottom: 50px;
+        }
+        li{
+            text-shadow: 1px 1px 10px darkgrey;
+        }
+        .servicioss li{
+            /* text-align: center; */
+            margin-bottom: 20px;
+            /* align-items: center; */
+            /* justify-content: center; */
+        }
+        
+        .servicioss{
+            background-color:rgb(237, 237, 237);
+            padding-top: 50px;
+        }
+        #hero3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh ;
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(img/hero-servicios-generales.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+        #hero3 h1{
+            color: white;
+            text-shadow: 4px 4px 10px black;
+        }
+        #hero3 button{
+            transition: 0.8s;
+            cursor: pointer;
+        }
+        #hero3 p{
+            margin: 0px 50px;
+            text-shadow: 2px 2px 4px black;
+            color: white;
+        }
+        .parrafo-acento{
+            /* text-shadow: 2px 2px 2px rgb(72, 72, 72); */
+            text-shadow: none;
+            /* border: 1px solid black; */
+            /* background-color: rgb(32, 53, 32); */
+            /* border-radius: 7px; */
+            text-shadow: 2px 2px 2px black;
+            color: rgb(51, 129, 51);
+            font-weight: bold;
+        }
+        #arriba{
+            transition: 0.8s;
+            cursor: pointer;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: 625px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">Clinica Esmeralda</a>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="index.html">Quienes Somos</a>
+                <a href="#servicios-generales">Nuestros Servicios</a>
+                <a href="#footer">Características</a>
+            </nav>
+        </div>
+    </header>
+    <section id="hero3">
+        <h1>Servicios Generales<br>garantizados</h1>
+        <p>En <span class="parrafo-acento">Clinica Esmeralda</span> , ofrecemos una amplia gama de servicios médicos generales diseñados para atender todas tus necesidades de salud. Desde consultas preventivas hasta tratamientos especializados, nuestro equipo de profesionales está comprometido con brindar atención personalizada y de alta calidad. ¡Tu bienestar es nuestra prioridad!</p>
+       <form action="#servicios-generales">
+           <button>VER SERVICIOS!</button>
+       </form>
+    </section>
+    <section>
+    <div id="servicios-generales" class="servicioss">
+        <ul>
+            <h2 id="h2-generales">Servicios Generales</h2>
+            <li>✔️Consultas Médicas</li>
+            <p>Nuestras consultas médicas generales están diseñadas para proporcionar atención primaria a pacientes de todas las edades. Nuestros médicos están capacitados para diagnosticar y tratar una variedad de condiciones, así como para proporcionar chequeos de rutina y asesoramiento en salud.</p>
+            <li>✔️Vacunación</li>
+            <p>Ofrecemos un programa completo de vacunación para todas las edades, desde niños hasta adultos mayores. Nuestras vacunas están diseñadas para proteger contra diversas enfermedades infecciosas, asegurando la salud y el bienestar de la comunidad.</p>
+            <li>✔️Exámenes de Laboratorio </li>
+            <p>Contamos con un laboratorio moderno y bien equipado donde realizamos una amplia variedad de pruebas diagnósticas. Desde análisis de sangre y orina hasta pruebas más complejas, nuestros servicios de laboratorio están diseñados para proporcionar resultados rápidos y precisos.</p>
+            <li>✔️Atención de Urgencias </li>
+            <p>Nuestro equipo está preparado para atender emergencias médicas con rapidez y eficiencia. Ofrecemos atención de urgencias para una variedad de condiciones, asegurando que los pacientes reciban el cuidado necesario en momentos críticos.</p>
+            <li>✔️Nutrición y Dietética </li>
+            <p>Nuestros especialistas en nutrición proporcionan asesoramiento dietético personalizado para ayudar a nuestros pacientes a llevar una vida saludable. Ofrecemos planes de alimentación adaptados a diversas necesidades y objetivos de salud.</p>
+        </ul>
+    </div>
+</section>
+<footer id="footer" class="pie-pagina">
+    <div class="grupo-1">
+        <figure>
+            <img id="logo-footer" src="img/footer2.jpg" alt="">
+        </figure>
+        <div class="box">
+            <h2>Sobre Nosotros</h2>
+            <p>En Clinica La Esmeralda, ofrecemos atención médica de excelencia con un enfoque en el paciente.</p>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, rem.</p> -->
+             <p>Confía en nuestro equipo para un cuidado médico de calidad y compasión.</p>
+        </div>
+        <div class="box">    
+            <h2>Siguenos</h2>
+            <P style="text-align: center; align-items:center; margin-bottom: 10px;">Nuestras redes sociales</P>
+            <div class="redes">
+                <a class= "social-icon" href="https://facebook.com/"><img src="img/facebook -1.png" alt=""></a>
+                <a class="social-icon" href="https:instagram.com"><img src="img/instagram-1.png" alt=""></a>
+                <a class="social-icon" href="https:whatsapp.com"><img src="img/whatsapp-1.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <form action="#hero3">
+        <button id="arriba" >Ir a Inicio</button>
+    </form>
+    <div class="pie-pagina2">
+        <small><p>&copy; Copyright 2024---- Todos los derechos reservados---- Pagina hecha por Yofrank Salas</p></small>    
+    </div>
+</footer>
+</body>
+</html>

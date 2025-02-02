@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Servicios especializados</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/icono.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Parkinsans:wght@300..800&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        ul  {
+            align-items: center;
+            margin: 0;
+            /* padding-bottom: 50px; */
+            margin-bottom: 0;
+            font-weight: bold;
+            padding-top: 50px;
+            padding-bottom: 100px;
+        }
+        ul p{
+            font-weight: 400;
+        }
+        p{
+            margin: 0;
+            /* padding: 0; */
+            margin-top: 8px;
+            padding-bottom: 50px;
+        }
+    
+        li{
+            text-shadow: 1px 1px 10px darkgrey;
+        }
+        .servicioss{
+            /* padding: 0; */
+            /* margin: 0; */
+            background-color:rgb(237, 237, 237);
+            padding-top: 50px;
+        }
+        #h4-generales{
+            text-align: center;
+            text-shadow: 4px 4px 2px darkgray;
+        }
+        #hero4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh ;
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(img/hero-servicios-especializados.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+        #hero4 h1{
+            color: white;
+            text-shadow: 4px 4px 10px black;
+        }
+        #hero4 button{
+            transition: 0.8s;
+            cursor: pointer;
+        }
+        #hero4 p{
+            margin: 0px 50px;
+            text-shadow: 2px 2px 4px black;
+            color: white;
+        }
+        .parrafo-acento{
+            /* text-shadow: 2px 2px 2px rgb(72, 72, 72); */
+            text-shadow: none;
+            /* border: 1px solid black; */
+            /* background-color: rgb(32, 53, 32); */
+            /* border-radius: 7px; */
+            text-shadow: 2px 2px 2px black;
+            color: rgb(51, 129, 51);
+            font-weight: bold;
+        }
+        #arriba{
+            transition: 0.8s;
+            cursor: pointer;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: 625px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">Clinica Esmeralda</a>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="index.html">Quienes Somos</a>
+                <a href="#servicios-especializados">Nuestros Servicios</a>
+                <a href="#footer">Características</a>
+            </nav>
+        </div>
+    </header>
+    <section id="hero4">
+        <h1>Servicios Especializados<br>garantizados</h1>
+        <p>En <span class="parrafo-acento">Clinica Esmeralda</span> , ofrecemos una variedad de servicios especializados para atender necesidades de salud específicas. Nuestro equipo de expertos está altamente capacitado en áreas como cardiología, neurología, ortopedia, y más, garantizando un tratamiento integral y avanzado. Nos comprometemos a proporcionar la mejor atención posible utilizando la última tecnología y enfoques innovadores en cada especialidad. Tu salud es nuestra máxima prioridad.</p>
+       <form action="#servicios-especializados">
+           <button>VER SERVICIOS!</button>
+       </form>
+    </section>
+    <section>
+        <div  id="servicios-especializados" class="servicioss">
+            <ul>
+                <h2 id="h4-generales" >Servicios Especializados</h2>
+                <li>✔️Medicina Interna </li>
+                <p>Nuestros internistas están capacitados para diagnosticar, tratar y prevenir una amplia variedad de enfermedades en adultos. Ofrecemos atención integral y coordinamos con otros especialistas para asegurar un tratamiento efectivo y continuo.</p>
+                <li>✔️Pediatría </li>
+                <p>Dedicados al cuidado de los más pequeños, nuestros pediatras proporcionan evaluaciones de crecimiento y desarrollo, vacunas, y tratamientos para enfermedades infantiles, asegurando la salud y el bienestar de los niños desde el nacimiento hasta la adolescencia.</p>
+                <li>✔️Ginecología y Obstetricia </li>
+                <p>Ofrecemos servicios completos de salud femenina, incluyendo exámenes ginecológicos, asesoramiento sobre anticoncepción, cuidado prenatal y posnatal. Nuestro equipo se compromete a apoyar a las mujeres en todas las etapas de su vida reproductiva.</p>
+                <li>✔️Cardiología </li>
+                <p>Nuestros cardiólogos especializados proporcionan diagnósticos avanzados y tratamientos para enfermedades del corazón y del sistema circulatorio. Realizamos pruebas de esfuerzo, ecocardiogramas y monitoreos cardíacos para evaluar y tratar afecciones cardiovasculares.</p>
+                <li>✔️Dermatología </li>
+                <p>Nuestro equipo de dermatólogos trata una amplia gama de problemas de la piel, desde afecciones comunes como el acné y las alergias, hasta enfermedades más complejas como el cáncer de piel. Ofrecemos tratamientos médicos y cosméticos para mejorar la salud y la apariencia de la piel.</p>
+            </ul>
+        </div>
+    </section>
+    <footer id="footer" class="pie-pagina">
+        <div class="grupo-1">
+            <figure>
+                <img id="logo-footer" src="img/footer2.jpg" alt="">
+            </figure>
+            <div class="box">
+                <h2>Sobre Nosotros</h2>
+                <p>En Clinica La Esmeralda, ofrecemos atención médica de excelencia con un enfoque en el paciente.</p>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, rem.</p> -->
+                 <p>Confía en nuestro equipo para un cuidado médico de calidad y compasión.</p>
+            </div>
+            <div class="box">    
+                <h2>Siguenos</h2>
+                <P style="text-align: center; align-items:center; margin-bottom: 10px;">Nuestras redes sociales</P>
+                <div class="redes">
+                  <a class= "social-icon" href="https://facebook.com/"><img src="img/facebook -1.png" alt=""></a>
+                    <a class="social-icon" href="https:instagram.com"><img src="img/instagram-1.png" alt=""></a>
+                    <a class="social-icon" href="https:whatsapp.com"><img src="img/whatsapp-1.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <form action="#hero4">
+            <button id="arriba">Ir a Inicio</button>
+        </form>
+        <div class="pie-pagina2">
+            <small><p>&copy; Copyright 2024---- Todos los derechos reservados---- Pagina hecha por Yofrank Salas</p></small>
+        </div>
+    </footer>
+</body>
+</html>

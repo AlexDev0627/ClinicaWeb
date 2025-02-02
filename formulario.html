@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con pattern</title>
+    <form method="post" action="./mostrardatos.php" class="formulario">
+        <fieldset>
+            <legend><h1>Registro de usuario</h1></legend>
+            Nombre: <input type="text" name="nombre" placeholder="Ingrese el Nombre" title="Introduzca su nombre solo letras" pattern="[AZaz] ](20)", required>
+            <br><br>
+            Correo: <input type="email" name="email" size="25" maxlength="25" title="Introduzca un correo que incluya '@'" , required placeholder="Introduzca el email">
+            <br><br>
+            <label for="tlf">Telefono</label>
+            <div class="tooltip">
+                <input type="tlf" id="tlf" name="telefono" required>
+                <span class="tooltiptext">El telefono debe incluir el codigo 0424 o 0412 y ocho digitos numericos</span>
+                <br><br>
+                <input type="submit" value="Registrar" name="registrar"><!--   -->
+                <input type="reset" value="Borrar" name="borrar">
+            </div>
+        </fieldset>
+    </form>
+</head>
+<body>
+    
+</body>
+</html>
